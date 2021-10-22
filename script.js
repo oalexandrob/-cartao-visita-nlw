@@ -14,3 +14,19 @@ function changeSocialMediaLinks() {
 }
 
 changeSocialMediaLinks()
+
+function getGitHubProfileInfos() {
+  const url = `https://api.github.com/users/${linksSocialMedia.github}`
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      userName.innerText = data.name
+      userBio.innerText = data.bio
+      userLogin.innerText = data.login
+      userLink.href = data.html_url
+      userImage.src = data.avatar_url
+    })
+}
+
+getGitHubProfileInfos()
