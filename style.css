@@ -100,6 +100,7 @@ ul {
 .instagram,.linkedin, .facebook, .instagram, .github:hover{
     width: 48px;
     height: 48px;
+    cursor: pointer;
  
 }
 
