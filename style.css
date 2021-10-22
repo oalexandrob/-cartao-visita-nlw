@@ -96,3 +96,26 @@ ul {
   gap: 0.5rem;
   justify-content: center;
 }
+
+.instagram,.linkedin, .facebook, .instagram, .github:hover{
+    width: 48px;
+    height: 48px;
+ 
+}
+
+.instagram:hover{
+  content: url(images/instagram.png);
+ 
+}
+
+.facebook:hover{
+  content: url(images/facebook.png);
+}
+
+.linkedin:hover{
+  content: url(images/linkedin.png);
+}
+
+.github:hover{
+  content: url(images/github.png);
+}
