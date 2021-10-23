@@ -20,9 +20,10 @@ body {
 }
 
 main {
-  background: url(images/bg2.jpg);
-  width: 375px;
-  height: 812px;
+  background: url(images/bg2.jpg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
@@ -97,26 +98,26 @@ ul {
   justify-content: center;
 }
 
-.instagram,.linkedin, .facebook, .instagram, .github:hover{
+#instagramLogo, #facebookLogo, #linkedinLogo, #githubLogo:hover{
     width: 48px;
     height: 48px;
     cursor: pointer;
  
 }
 
-.instagram:hover{
+#instagramLogo:hover{
   content: url(images/instagram.png);
  
 }
 
-.facebook:hover{
+#facebookLogo:hover{
   content: url(images/facebook.png);
 }
 
-.linkedin:hover{
+#linkedinLogo:hover{
   content: url(images/linkedin.png);
 }
 
-.github:hover{
+#githubLogo:hover{
   content: url(images/github.png);
 }
